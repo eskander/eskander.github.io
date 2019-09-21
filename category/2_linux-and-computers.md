@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Linux & Computers
-category: ''
+category: linux
 
 ---
 About different Linux distros.
