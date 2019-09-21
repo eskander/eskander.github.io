@@ -4,24 +4,38 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Pages
-  create: all
+- type: document
+  path: FIRSTSTEPS.md
+  label: Welcome - Start Here!
+  read_only: true
+- type: document
+  path: _config.yml
+  label: Site Configuration
 - type: jekyll-posts
   label: Posts
   create: all
-upload_dir: uploads
-public_path: "/uploads"
+  templates:
+  - post
+- type: directory
+  path: category
+  label: Categories
+  create: all
+  match: "**/*"
+  templates:
+  - category
+- type: directory
+  path: ''
+  label: Pages
+  create: documents
+  match: "*"
+  exclude: "{README*,LICENSE*,FIRSTSTEPS*,_config.yml}"
+  new_doc_ext: md
+  templates:
+  - page
+  - tags
+  - search
+upload_dir: assets/img
+public_path: assets/img
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-build:
-  preview_env:
-  - JEKYLL_ENV=staging
-  preview_output_directory: _site
-  install_dependencies_command: bundle install --path vendor/bundle
-  preview_docker_image: forestryio/ruby:2.6
-  mount_path: "/srv"
-  working_dir: "/srv"
-  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
-    --port 8080 --host 0.0.0.0 -d _site
