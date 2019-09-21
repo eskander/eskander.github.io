@@ -4,18 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: test
+  create: all
+  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
   templates:
   - post
-- type: directory
-  path: category
-  label: Categories
-  create: all
-  match: "**/*"
-  templates:
-  - category
 - type: directory
   path: ''
   label: Pages
@@ -28,10 +25,17 @@ sections:
   - tags
   - search
 - type: heading
-  label: Settings
+  label: Blog
+- type: directory
+  path: category
+  label: Categories
+  create: all
+  match: "**/*"
+  templates:
+  - category
 - type: document
   path: _config.yml
-  label: Configuration
+  label: Config
 upload_dir: assets/img
 public_path: assets/img
 front_matter_path: ''
