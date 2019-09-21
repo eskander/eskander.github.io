@@ -2,9 +2,8 @@
 markdown: kramdown
 highlighter: rouge
 title: Eskander
-tagline: Eskander's Blog
-description: The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme
-  for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.
+tagline: Blog
+description: A small blog where I write about Linux and Electronics tinkering.
 url: https://eskander.github.io/
 baseurl: ''
 author:
