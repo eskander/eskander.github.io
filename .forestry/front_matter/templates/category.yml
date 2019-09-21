@@ -22,4 +22,5 @@ fields:
   config:
     required: false
 pages:
+- category/linux-programming.md
 - category/electronics-tinkering.md
