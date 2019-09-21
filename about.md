@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-sidebar_link: false
+sidebar_link: true
 date: 
 sidebar_sort_order: 
 
