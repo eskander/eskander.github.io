@@ -4,8 +4,6 @@ Hydeout updates the original [Hyde](https://github.com/poole/hyde)
 theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 
 ![Desktop](https://github.com/fongandrew/hydeout/blob/master/_screenshots/1.png?raw=true)
-<img alt="Mobile home page" src="https://github.com/fongandrew/hydeout/blob/master/_screenshots/2.png?raw=true" width="300px" />
-<img alt="Mobile post page" src="https://github.com/fongandrew/hydeout/blob/master/_screenshots/3.png?raw=true" width="300px" />
 
 ### Keep It Simple
 
@@ -18,18 +16,6 @@ Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
 the CSS degrades into a single column layout.
 
 ## First Steps
-
-### 1. Import
-
-To give you a running start this installation puts a fully configured [starter repo](https://github.com/forestryio/hydeout-jekyll-starter) into your Git account and sets it up in a content manager / CMS.
-
-_[Forestry](https://forestry.io) Starter-Kit:_
-
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/hydeout-jekyll-starter&provider=github&engine=jekyll)
-
-You've now successfully installed your Hydeout Theme in a Jekyll project.
-
-There's a few more settings we need to customize before you can get started.
 
 ### 1. Deployment
 
