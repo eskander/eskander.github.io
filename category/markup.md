@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Markup
----
+title: Electronics
 
-Another sample category page.
+---
+About electronics and tinkering.
