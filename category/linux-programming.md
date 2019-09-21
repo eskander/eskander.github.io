@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Linux & Programming
+title: Linux & Computers
 category: ''
 
 ---
-About different Linux distros and Programming.
+About different Linux distros.
