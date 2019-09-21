@@ -4,4 +4,4 @@ title: Electronics & Tinkering
 category: ''
 
 ---
-About Electronics & Tinkering with old stuff.
+About Electronics and Tinkering with old stuff.
