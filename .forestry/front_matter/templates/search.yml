@@ -16,5 +16,6 @@ fields:
     required: true
   default: search
 pages:
+- search.md
 - google-search.md
 - google-search.md
