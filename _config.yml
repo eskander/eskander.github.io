@@ -27,4 +27,4 @@ remote_theme: fongandrew/hydeout
 google_analytics: " UA-148324756-1 "
 disqus:
   shortname: ''
-theme: jekyll-theme-hydeout
+#theme: jekyll-theme-hydeout
